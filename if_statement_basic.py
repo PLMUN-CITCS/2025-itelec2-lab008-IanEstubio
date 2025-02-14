@@ -1,8 +1,14 @@
-#IAN JAY P. ESTUBIO 
-#Week 04 - Conditional Statements
-#Laboratory # 08 - Guided Coding Exercise: Simple if Statement in Python
+# IAN JAY P. ESTUBIO 
+# Week 04 - Conditional Statements
+# Laboratory # 08 - Guided Coding Exercise: Simple if Statement in Python
 
-temperature = 36
+def main():
+    """Main function to check the temperature condition."""
+    temperature = 36
 
-if temperature > 30:
-     print("It's a hot day!")
+    if temperature > 30:
+        print("It's a hot day!")
+
+if __name__ == "__main__":
+    main()
+
